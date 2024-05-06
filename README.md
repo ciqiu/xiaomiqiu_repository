@@ -1,38 +1,34 @@
 # xiaomiqiu_repository
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+小米球官方网站：
+https://www.xiaomiqiu.cn/
+https://manager.xiaomiqiu.com/
 
-#### 软件架构
-软件架构说明
+小米球交流群：
+①群:150134730
+②群:150134648
+③群:745317268
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+================================
 
-#### 使用说明
+1、关于配置问题请参看xiaomiqiu.conf文件！
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2、配置文件参数小解：
 
-#### 参与贡献
+	auth_token：用户连接小米球Ngrok的唯一Token,需要到https://manager.xiaomiqiu.com/ 注册获得;
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+	server_addr: 服务器连接地址，如ngtest.guyubao.com:5432
 
-#### 特技
+	log_level: 错误日志等级，错误等级 (default "error")
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+	log: 日志输出方式，可选项为stdout与file,默认为file。如果想要程序在后台运行，要将log设置为stdout (default "file")。
+
+3、更多参数详情，可以通过运行"xiaomiqiu --help"命令查看帮助。
+
+4、快速启动脚本，windows系统请用"小米球一键启动工具.bat",其它系统请用"xiaomiqiu_start.sh"。
+
+如果打开xiaomiqiu.conf发现格式是乱的，请尝试用其他
+文本工具(如:Editplus、Notepad++)打开试试!
