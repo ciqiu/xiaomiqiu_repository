@@ -48,7 +48,7 @@ https://manager.xiaomiqiu.com/
 
 
 
-================================
+#### 其它说明
 
 1、关于配置问题请参看xiaomiqiu.conf文件！
 
