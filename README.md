@@ -17,7 +17,8 @@ https://manager.xiaomiqiu.com/
 2、克隆整个仓库下载。
 
 2、根据下方的直链下载。
-    #mac
+    
+    #mac 
     https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu
     
     #mac m1芯片
