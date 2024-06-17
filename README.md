@@ -10,6 +10,41 @@ https://manager.xiaomiqiu.com/
 ②群:150134648
 ③群:745317268
 
+#### 客户端下载
+
+1、右侧下载发行版处下载。
+
+2、克隆整个仓库下载。
+
+2、根据下方的直链下载。
+    #mac
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu
+    
+    #mac m1芯片
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_arm64/xiaomiqiu
+    
+    #linux 32位
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_386/xiaomiqiu
+    
+    #linux 64位
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_amd64/xiaomiqiu
+    
+    #linux arm版本
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_arm64/xiaomiqiu
+    
+    #linux armv7版本
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_armv7/xiaomiqiu
+    
+    #linux mips版本
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_mips/xiaomiqiu
+    
+    #windows 32位
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_386/xiaomiqiu.exe
+    
+    #windows 64位
+    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe
+
+
 
 
 ================================
