@@ -66,5 +66,7 @@ https://manager.xiaomiqiu.com/
 
 4、快速启动脚本，windows系统请用"小米球一键启动工具.bat",其它系统请用"xiaomiqiu_start.sh"。
 
+5、darwin版本就是mac版本。
+
 如果打开xiaomiqiu.conf发现格式是乱的，请尝试用其他
 文本工具(如:Editplus、Notepad++)打开试试!
