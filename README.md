@@ -58,7 +58,7 @@ https://manager.xiaomiqiu.com/
 
 	server_addr: 服务器连接地址，如ngtest.guyubao.com:5432
 
-	log_level: 错误日志等级，错误等级 (default "error")
+	log-level: 错误日志等级，错误等级 (default "error")
 
 	log: 日志输出方式，可选项为stdout与file,默认为file。如果想要程序在后台运行，要将log设置为stdout (default "file")。
 
