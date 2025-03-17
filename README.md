@@ -18,9 +18,9 @@ https://manager.xiaomiqiu.com/
 
 2、克隆整个仓库下载。
 
-2、根据下方的直链下载。
+3、点击下方的直链下载。
 
-MAC客户端
+Mac客户端
 <br>
 [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
 <br>
@@ -45,6 +45,11 @@ Windows客户端
 <br>
 [windows 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe)
 <br>
+
+参考配置文件
+<br>
+[xiaomiqiu.conf](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/xiaomiqiu.conf)
+
 
 
 #### 其它说明
