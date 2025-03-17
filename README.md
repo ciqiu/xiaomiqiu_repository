@@ -17,6 +17,7 @@ https://manager.xiaomiqiu.com/
 2、克隆整个仓库下载。
 
 2、根据下方的直链下载。
+[darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
     
     [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
     
