@@ -19,9 +19,9 @@ https://manager.xiaomiqiu.com/
 2、根据下方的直链下载。
 
 MAC
-< br >
+<br>
 [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
-< br >
+<br>
 [darwin_arm64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_arm64/xiaomiqiu)
     
     [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
