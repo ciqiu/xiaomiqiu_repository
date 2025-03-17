@@ -3,6 +3,7 @@
 #### 介绍
 小米球官方网站：
 https://www.xiaomiqiu.cn/
+<br>
 https://manager.xiaomiqiu.com/
 
 小米球交流群：
@@ -23,37 +24,25 @@ MAC
 [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
 <br>
 [darwin_arm64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_arm64/xiaomiqiu)
-    
-    [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
-    
-    #mac 
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu
-    
-    #mac m1芯片
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_arm64/xiaomiqiu
-    
-    #linux 32位
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_386/xiaomiqiu
-    
-    #linux 64位
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_amd64/xiaomiqiu
-    
-    #linux arm版本
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_arm64/xiaomiqiu
-    
-    #linux armv7版本
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_armv7/xiaomiqiu
-    
-    #linux mips版本
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_mips/xiaomiqiu
-    
-    #windows 32位
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_386/xiaomiqiu.exe
-    
-    #windows 64位
-    https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe
 
-
+LINUX
+<br>
+[linux 32位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_386/xiaomiqiu)
+<br>
+[linux 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_amd64/xiaomiqiu)    
+<br>    
+[linux arm版本](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_arm64/xiaomiqiu)    
+<br>    
+[linux armv7](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_armv7/xiaomiqiu)    
+<br>    
+[linux mips](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_mips/xiaomiqiu)    
+<br>    
+WINDOWS
+<br>
+[windows 32位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_386/xiaomiqiu.exe)    
+<br>
+[windows 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe)    
+<br>
 
 
 #### 其它说明
