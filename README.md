@@ -8,7 +8,7 @@ https://www.xiaomiqiu.cn/
 https://manager.xiaomiqiu.com/
 
 小米球交流群：
-①群:150134730
+~~①群:150134730~~
 ②群:150134648
 ③群:745317268
 
