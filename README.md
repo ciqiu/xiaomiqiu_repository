@@ -19,29 +19,30 @@ https://manager.xiaomiqiu.com/
 
 2、根据下方的直链下载。
 
-MAC
+MAC客户端
 <br>
 [darwin_amd64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_amd64/xiaomiqiu)
 <br>
 [darwin_arm64](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/darwin_arm64/xiaomiqiu)
 
-LINUX
+Linux客户端
 <br>
 [linux 32位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_386/xiaomiqiu)
 <br>
-[linux 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_amd64/xiaomiqiu)    
-<br>    
-[linux arm版本](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_arm64/xiaomiqiu)    
-<br>    
-[linux armv7](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_armv7/xiaomiqiu)    
-<br>    
-[linux mips](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_mips/xiaomiqiu)    
-<br>    
-WINDOWS
+[linux 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_amd64/xiaomiqiu)
 <br>
-[windows 32位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_386/xiaomiqiu.exe)    
+[linux arm版本](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_arm64/xiaomiqiu)
 <br>
-[windows 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe)    
+[linux armv7](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_armv7/xiaomiqiu)
+<br>
+[linux mips](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/linux_mips/xiaomiqiu)
+<br>
+
+Windows客户端
+<br>
+[windows 32位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_386/xiaomiqiu.exe)
+<br>
+[windows 64位](https://gitee.com/ciqiu/xiaomiqiu_repository/raw/master/windows_amd64/xiaomiqiu.exe)
 <br>
 
 
