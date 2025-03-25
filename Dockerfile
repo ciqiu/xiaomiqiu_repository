@@ -1,28 +1,28 @@
-# ʹ�ö�׶ι�������С�����С
-FROM --platform=$BUILDPLATFORM alpine:latest as builder
+# 使用多阶段构建来减小镜像大小
+FROM --platform=$BUILDPLATFORM ubuntu:22.04 as builder
 
-# ���幹������
+# 定义构建参数
 ARG TARGETARCH
 ARG TARGETOS
 
-# ����Ŀ��Ŀ¼�������ļ�
+# 创建目标目录并复制文件
 RUN mkdir -p /app/${TARGETOS}_${TARGETARCH}
 COPY ${TARGETOS}_${TARGETARCH}/* /app/${TARGETOS}_${TARGETARCH}/
 
-# ����ִ��Ȩ��
+# 设置执行权限
 RUN chmod +x /app/${TARGETOS}_${TARGETARCH}/xiaomiqiu_start.sh
 
-# ���վ���
-FROM alpine:latest
+# 最终镜像
+FROM ubuntu:22.04
 
-# ���ƹ����õĿͻ����ļ�
+# 复制构建好的客户端文件
 COPY --from=builder /app/${TARGETOS}_${TARGETARCH}/xiaomiqiu_start.sh /app/xiaomiqiu_start.sh
 
-# ���ù���Ŀ¼
+# 设置工作目录
 WORKDIR /app
 
-# ����ִ��Ȩ��
+# 设置执行权限
 RUN chmod +x /app/xiaomiqiu_start.sh
 
-# ���пͻ���
+# 运行客户端
 CMD ["./xiaomiqiu_start.sh"]
