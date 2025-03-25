@@ -1,0 +1,61 @@
+name: Build Docker Images
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [darwin, linux]
+        arch: [386, amd64, arm64, armv7, mips]
+        exclude:
+          - os: darwin
+            arch: amd64
+          - os: darwin
+            arch: arm64
+          - os: linux
+            arch: 386
+          - os: linux
+            arch: amd64
+          - os: linux
+            arch: arm64
+          - os: linux
+            arch: mips
+          - os: linux
+            arch: armv7
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Build Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          file: ./Dockerfile
+          platforms: linux/${{ matrix.arch }}
+          tags: |
+            client:${{ matrix.os }}-${{ matrix.arch }}
+          build-args: |
+            TARGETARCH=${{ matrix.arch }}
+            TARGETOS=${{ matrix.os }}
+          push: false  # 不推送镜像
+
+      - name: Save Docker image as tar
+        run: |
+          docker save -o xiaomiqiu-${{ matrix.os }}-${{ matrix.arch }}.tar client:${{ matrix.os }}-${{ matrix.arch }}
+
+      - name: Upload Docker image as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: client-${{ matrix.os }}-${{ matrix.arch }}
+          path: client-${{ matrix.os }}-${{ matrix.arch }}.tar
