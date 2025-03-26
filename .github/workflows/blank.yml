@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu:last
+    runs-on: ubuntu:latest
     strategy:
       matrix:
         os: [darwin, linux]
