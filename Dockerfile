@@ -1,5 +1,5 @@
 # 使用多阶段构建来减小镜像大小
-FROM --platform=$BUILDPLATFORM ubuntu:last as builder
+FROM --platform=$BUILDPLATFORM ubuntu:latest as builder
 
 # 定义构建参数
 ARG TARGETARCH
@@ -13,7 +13,7 @@ COPY ${TARGETOS}_${TARGETARCH}/* /app/${TARGETOS}_${TARGETARCH}/
 RUN chmod +x /app/${TARGETOS}_${TARGETARCH}/xiaomiqiu_start.sh
 
 # 最终镜像
-FROM ubuntu:last
+FROM ubuntu:latest
 
 # 复制构建好的客户端文件
 COPY --from=builder /app/${TARGETOS}_${TARGETARCH}/xiaomiqiu_start.sh /app/xiaomiqiu_start.sh
